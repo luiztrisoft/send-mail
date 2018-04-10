@@ -22,9 +22,9 @@ public class App {
 	public static void main(String[] args) {
 
 		String to = "luiz.trisoft@gmail.com";
-		String subject = "RECUPERAÇÃO DE ACESSO AO ESIIM";
-		String message = "Prezado cliente,\n" + "sua nova senha de acesso ao E-SIIM é: " + passwordGenerator(6)
-				+ "\nTente acessar através do endereço http://localhost:4200/login";
+		String subject = "RECUPERAÇÃO DE ACESSO AO SISTEMA";
+		String message = "Prezado cliente,\n" + "sua nova senha de acesso ao SISTEMA é: " + passwordGenerator(6)
+				+ "\nTente acessar através do endereço http://localhost";
 
 		App app = new App();
 		app.sendMail(to, subject, message);
